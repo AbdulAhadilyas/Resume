@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+body{
+    background-color: lightblue;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 50vh;
+}
+.contanire{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20PX;
+    
+}
+.contanire .left{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    padding: 48px;
+}
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.name .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+.name .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+
+}
+.name h2{
+    color: white;
+    font-size: 1.5em;
+
+}
+.contact{
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 1px solid gray;
+}
+.descriptipon h2{
+    color: white;
+    margin: 7px;
+    font-size: 2em;
+}
+.descriptipon{
+    color: white;
+}
+.descriptipon p{
+    margin: 10px;
+}
+
+.contanire .right{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+}
+.myservice h2{
+    font-size: 2em;
+    text-decoration: double underline;
+}
+.myservice ul{
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.MyEducation ul{
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+
+.MyEducation h2{
+    font-size: 2em;
+    text-decoration: double underline;
+}
+.exp h2{
+    font-size: 2em;
+    text-decoration: double underline;
+}
+.exp ul{
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.strength h2{
+    font-size: 2em;
+    text-decoration: double underline;
+}
+.strength ul{
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 20px
+}
+.reference h2{
+    font-size: 2em;
+    text-decoration: double underline;
+}
+.reference ul{
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 20px
+}
